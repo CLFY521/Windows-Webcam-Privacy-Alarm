@@ -35,6 +35,6 @@
 
 找到 WebcamMonitor.exe，右键选择 “结束任务”。
 
-如何自行编译
-在 CMD 中执行以下命令即可生成成品：
+5.关于开源文件如何自行编译
+把存放 `WebcamMonitor.cs` 的文件夹打开。在资源管理器地址栏输入 `cmd`，按回车，打开命令行窗口。
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /target:winexe /out:WebcamMonitor.exe WebcamMonitor.cs
